@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OnlyFish</title>
+    <style>
+        :root {
+            --spacing: 2rem;
+            --text: #f1f1f1; /* Updated text color */
+            --highlight: #00ffff; /* Adjusted highlight for visibility on dark background; e.g., cyan */
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, sans-serif;
+            color: var(--text);
+            line-height: 1.5;
+            background: #061818; /* Updated background color */
+        }
+
+        .main-content {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: var(--spacing);
+        }
+
+        .section-header {
+            margin: calc(var(--spacing) * 2) 0 var(--spacing);
+            font-size: 1.75rem;
+            color: var(--text);
+        }
+
+        .contributors {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contributor {
+            margin-bottom: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .contributor strong {
+            color: var(--highlight);
+            font-size: 1.1rem;
+        }
+
+        .contributor span {
+            padding-left: var(--spacing);
+            color: var(--text);
+            display: block;
+        }
+
+        iframe {
+            border: none; /* Remove any default borders */
+        }
+    </style>
+</head>
+<body>
+    <main class="main-content">
+        <iframe src="game.html" title="Featured Game" width="1280" height="720"></iframe>
+
+        <h2 class="section-header">OnlyFish</h2>
+        <p>A PufferAI community project. Click to feed the fish a star. PR your puffer to this page! Instructions in the <a href="https://github.com/PufferAI/PufferLib/blob/3.0/pufferlib/ocean/onlyfish/onlyfish.h">source code</a>. Include your name and repo link below in your PR.</p>
+
+        <h2 class="section-header">Contributors</h2>
+        <div class="contributors">
+            <div class="contributor">
+                <strong>Joseph Suarez</strong>
+                <span>The big fish.</span>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
