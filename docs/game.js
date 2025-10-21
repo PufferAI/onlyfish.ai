@@ -27,7 +27,7 @@ var ENVIRONMENT_IS_SHELL = !ENVIRONMENT_IS_WEB && !ENVIRONMENT_IS_NODE && !ENVIR
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /tmp/tmp8zos_e43.js
+// include: /tmp/tmpvyn5k7n3.js
 
   Module['expectedDataFileDownloads'] ??= 0;
   Module['expectedDataFileDownloads']++;
@@ -206,25 +206,25 @@ Module['FS_createPath']("/resources", "shared", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/resources/onlyfish/lonelypuff.bin", "start": 0, "end": 547388}, {"filename": "/resources/onlyfish/star.png", "start": 547388, "end": 553072}, {"filename": "/resources/shared/JetBrainsMono-Bold.ttf", "start": 553072, "end": 667900}, {"filename": "/resources/shared/JetBrainsMono-Medium.ttf", "start": 667900, "end": 782820}, {"filename": "/resources/shared/JetBrainsMono-Regular.ttf", "start": 782820, "end": 897724}, {"filename": "/resources/shared/JetBrainsMono-SemiBold.ttf", "start": 897724, "end": 1012624}, {"filename": "/resources/shared/Montserrat-Regular.ttf", "start": 1012624, "end": 1343572}, {"filename": "/resources/shared/Roboto-Regular.ttf", "start": 1343572, "end": 1489576}, {"filename": "/resources/shared/puffer.glb", "start": 1489576, "end": 2689200}, {"filename": "/resources/shared/puffers.png", "start": 2689200, "end": 2986338}, {"filename": "/resources/shared/puffers_128.png", "start": 2986338, "end": 3009244}], "remote_package_size": 3009244});
+    loadPackage({"files": [{"filename": "/resources/onlyfish/danadvantage.bin", "start": 0, "end": 547388}, {"filename": "/resources/onlyfish/lonelypuff.bin", "start": 547388, "end": 1094776}, {"filename": "/resources/onlyfish/star.png", "start": 1094776, "end": 1100460}, {"filename": "/resources/shared/JetBrainsMono-Bold.ttf", "start": 1100460, "end": 1215288}, {"filename": "/resources/shared/JetBrainsMono-Medium.ttf", "start": 1215288, "end": 1330208}, {"filename": "/resources/shared/JetBrainsMono-Regular.ttf", "start": 1330208, "end": 1445112}, {"filename": "/resources/shared/JetBrainsMono-SemiBold.ttf", "start": 1445112, "end": 1560012}, {"filename": "/resources/shared/Montserrat-Regular.ttf", "start": 1560012, "end": 1890960}, {"filename": "/resources/shared/Roboto-Regular.ttf", "start": 1890960, "end": 2036964}, {"filename": "/resources/shared/puffer.glb", "start": 2036964, "end": 3236588}, {"filename": "/resources/shared/puffers.png", "start": 3236588, "end": 3533726}, {"filename": "/resources/shared/puffers_128.png", "start": 3533726, "end": 3556632}], "remote_package_size": 3556632});
 
   })();
 
-// end include: /tmp/tmp8zos_e43.js
-// include: /tmp/tmpry352sm5.js
+// end include: /tmp/tmpvyn5k7n3.js
+// include: /tmp/tmpj2rbx8b9.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if ((typeof ENVIRONMENT_IS_WASM_WORKER != 'undefined' && ENVIRONMENT_IS_WASM_WORKER) || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /tmp/tmpry352sm5.js
-// include: /tmp/tmpxnxl904f.js
+  // end include: /tmp/tmpj2rbx8b9.js
+// include: /tmp/tmp4q78lvrq.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /tmp/tmpxnxl904f.js
+  // end include: /tmp/tmp4q78lvrq.js
 
 
 var arguments_ = [];
